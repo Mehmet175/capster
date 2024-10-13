@@ -1,16 +1,25 @@
-# capster
+# Capster
 
-Meme Challange
+Meme Kapışması uygulaması, oyuncuları rastgele eşleştirip onlara bir meme gösterir ve her oyuncu meme için en uygun durumu (caption) yazar. Oyuncular daha sonra birbirlerinin yazdıklarını oylayarak en iyi durumu seçer. En çok oyu alan oyuncu oyunu kazanır.
 
-## Getting Started
+## Özellikler
 
-This project is a starting point for a Flutter application.
+	•	Rastgele Eşleştirme: Oyuncular rastgele eşleştirilir.
+	•	Meme Gösterimi: Her oyunda oyunculara bir meme sunulur.
+	•	Durum Yazma: Oyuncular, verilen meme için bir durum yazar.
+	•	Oylama: Oyuncular, diğer oyuncuların yazdığı durumları oylayabilir (kendi yazdıkları hariç).
+	•	Sonuç Ekranı: Oylama sonunda en çok oy alan durum ve yazan oyuncu kazanan olarak ilan edilir.
 
-A few resources to get you started if this is your first Flutter project:
+## Katkıda Bulunma
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Katkıda bulunmak isterseniz lütfen bir “pull request” gönderin veya bir “issue” açın.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+	1.	Projeyi forklayın.
+	2.	Yeni bir özellik dalı oluşturun (git checkout -b yeni-ozellik).
+	3.	Değişikliklerinizi commitleyin (git commit -m 'Yeni özellik ekle').
+	4.	Dala push yapın (git push origin yeni-ozellik).
+	5.	Bir “pull request” oluşturun.
+
+
+## Gereksinimler
+    Flutter 3.24.3
